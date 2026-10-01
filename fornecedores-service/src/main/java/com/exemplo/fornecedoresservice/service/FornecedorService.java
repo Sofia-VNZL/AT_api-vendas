@@ -17,7 +17,7 @@ public class FornecedorService {
     }
 
     public List<Fornecedor> listarTodos() {
-        return fornecedorRepository.findAll(); 
+        return fornecedorRepository.findAll();
     }
 
 
