@@ -25,4 +25,9 @@ public class FornecedorService {
         return fornecedorRepository.findById(id);
 
     }
+
+    public Fornecedor salvar(Fornecedor fornecedor) {
+        fornecedor.setId(null);
+        return fornecedorRepository.save(fornecedor);
+    }
 }
